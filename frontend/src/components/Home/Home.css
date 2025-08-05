@@ -1,0 +1,16 @@
+/* Ajuste de padding y fuente para dispositivos móviles */
+@media (max-width: 768px) {
+    .MuiTypography-h6 {
+      font-size: 1.25rem;
+    }
+  
+    .MuiPaper-root {
+      padding: 1rem;
+    }
+    
+    .MuiFab-root {
+      width: 48px;
+      height: 48px;
+    }
+  }
+  

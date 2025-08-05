@@ -1,0 +1,37 @@
+{
+    "name": "pern-template",
+    "version": "1.0.0",
+    "description": "Template completo PERN Stack con autenticación JWT",
+    "scripts": {
+        "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+        "dev:backend": "cd backend && npm run dev",
+        "dev:frontend": "cd frontend && npm run dev",
+        "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+        "build": "cd frontend && npm run build",
+        "start": "cd backend && npm start",
+        "test": "concurrently \"npm run test:backend\" \"npm run test:frontend\"",
+        "test:backend": "cd backend && npm test",
+        "test:frontend": "cd frontend && npm test",
+        "lint": "concurrently \"npm run lint:backend\" \"npm run lint:frontend\"",
+        "lint:backend": "cd backend && npm run lint",
+        "lint:frontend": "cd frontend && npm run lint",
+        "docker:up": "docker-compose up -d",
+        "docker:down": "docker-compose down",
+        "docker:build": "docker-compose build",
+        "docker:logs": "docker-compose logs -f"
+    },
+    "keywords": [
+        "PERN",
+        "PostgreSQL",
+        "Express",
+        "React",
+        "Node.js",
+        "JWT",
+        "Template"
+    ],
+    "author": "Sergio Villena",
+    "license": "MIT",
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}

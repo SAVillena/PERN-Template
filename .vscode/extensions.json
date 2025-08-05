@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "ms-vscode.vscode-json",
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-eslint",
+        "ms-vscode.vscode-typescript-next",
+        "formulahendry.auto-rename-tag",
+        "ms-vscode.vscode-node-azure-pack",
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode.docker",
+        "ms-python.python",
+        "ms-vscode.hexeditor"
+    ]
+}
